@@ -9,27 +9,26 @@
 }
 .post-header{
     display:flex;
-    
-    flex-wrap:wrap;
     align-content: flex-start;
 
 }
 #simbolo{
     text-align: left;
-    height: 50px;
-    width: 50px;
+
+
     
-    flex: 1 1 auto;
 }
 #html{
     flex: 1 1 auto;
-    flex-grow: calc(5);
+    flex-grow: calc(4);
     text-align: left;
+    margin-left: 20px;
+    font-size: small;
+    margin-bottom: 10px;
 }
 #puntos{ 
     
-    height: 50px;
-    width: 50px;
+    
     
     flex: 1 1 auto;
 }
@@ -65,19 +64,23 @@
 }
 .post-icons{
     display:flex;
-    flex-wrap:wrap;
+    justify-content: space-between;
     align-content: flex-start;
 
+}
+.post1{
+    align-content: flex-start;
+    display:flex;
+}
+.post2{
+    justify-content:end; 
+    
 }
 #heart{
     
     text-align: left;
     height: 30px;
-    width: 30px;
-    
-}
-#heartimg{
-    width: 30px;
+    width: 30px; 
 }
 #message{
     
@@ -86,9 +89,7 @@
     width: 30px;
     
 }
-#messageimg{
-    width: 30px;
-}
+
 #direct{
    
     text-align: left;
@@ -96,18 +97,11 @@
     width: 30px;
     
 }
-#directimg{
-    width: 30px;
-}
+
 #fav{
     
-    text-align: left;
+    margin;
     height: 30px;
     width: 30px;
-    align-self: flex-end;
     
-}
-#favimg{
-    width: 30px;
-    flex-direction: end;
 }
